@@ -1,7 +1,7 @@
 body {
 	background-image: url(/images/white_wave.png);
 	text-align: center;
-	color: gray;
+	color: black;
 	font-family: Helvetica, Arial;
 	margin: 0;
 	padding: 0;
@@ -11,6 +11,9 @@ header {
 	padding: 15px;
 	background-color: rgba(255,255,255,0.7);
 	box-shadow: 1px 0 3px rgba(0,0,0,0.3);
+	font-family: 'Lobster', cursive;
+	color: black;
+	font-size: 36px;
 }
 
 footer {
@@ -36,6 +39,7 @@ footer div {
 
 #search-results img {
 	padding: 10px;
+	box-shadow: 
 }
 
 #branding {

@@ -4,7 +4,11 @@ $(document).on('click', '#go-search', function() {
 });
 
 //1a. Same as above, but listens for the user to hit enter.
-
+$("#search-term").keyup(function(event){
+    if(event.keyCode == 13){
+        $("#go-search").click();
+    }
+});
 
 //2. When user clicks an image, loads it into the workspace.
 $(document).on('click', '#search-results img', function() {
