@@ -47,3 +47,7 @@ $(document).on('change', '#colour', function() {
 $(document).on('change', '#align', function() {
 	$("#caption").css("text-align", $(this).val())
 })
+
+$(document).on('change', '#font-weight', function() {
+	$("#caption").css("font-weight", $(this).val())
+})
