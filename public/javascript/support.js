@@ -2,7 +2,7 @@ google.load("search", "1");
 
 function findImagesOnGoogle(options) {  
   $(options.container).empty();
-  $(options.container).append($("<p>").text("Searching..."));
+  $(options.container).append($("<p>").text("Searching ur internets..."));
 
   var imageSearch = new google.search.ImageSearch();
   imageSearch.setSearchCompleteCallback(this, function() {
