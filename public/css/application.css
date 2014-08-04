@@ -34,6 +34,14 @@ footer div {
 	padding: 10px;
 }
 
+#search-results img {
+	padding: 10px;
+}
+
+#branding {
+	text-align: center;
+}
+
 #add-text {
 	background-color: rgba(0,255,255, 0.02);
 	padding: 10px;

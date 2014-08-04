@@ -3,6 +3,9 @@ $(document).on('click', '#go-search', function() {
 	findImagesOnGoogle({keywords: $('#search-term').val(), container: '#search-results'})
 });
 
+//1a. Same as above, but listens for the user to hit enter.
+
+
 //2. When user clicks an image, loads it into the workspace.
 $(document).on('click', '#search-results img', function() {
 	var url = $(this).data('url');
@@ -38,5 +41,5 @@ $(document).on('change', '#colour', function() {
 })
 
 $(document).on('change', '#align', function() {
-	$("#caption").css("text-align", $(this).val() + 'px')
+	$("#caption").css("text-align", $(this).val())
 })
