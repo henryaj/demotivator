@@ -1,5 +1,67 @@
 body {
-	background-image: url(/images/white_wave.png)
+	background-image: url(/images/white_wave.png);
+	text-align: center;
+	color: gray;
+	font-family: Helvetica, Arial;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	padding: 15px;
+	background-color: rgba(255,255,255,0.7);
+	box-shadow: 1px 0 3px rgba(0,0,0,0.3);
+}
+
+footer {
+	padding: 10px;
+	background-color: rgba(255,0,255, 0.05);
+	text-align: left;
+	box-shadow: -1px 0 5px rgba(0,0,0, 0.3);
+}
+
+footer img {
+	float: left;
+	margin-right: 40px;
+}
+
+footer div {
+	margin: 10px 0;
+}
+
+#select-image {
+	background-color: rgba(255,255,255, 0.3);
+	padding: 10px;
+}
+
+#add-text {
+	background-color: rgba(0,255,255, 0.02);
+	padding: 10px;
+	box-shadow: 1px 0 3px rgba(0,0,0, 0.3);
+}
+
+#add-text input {
+	width: 600px;
+	text-align: center;
+}
+
+#style-image {
+	background-color: rgba(255,255,255, 0.7);
+	padding: 10px;
+	box-shadow: 1px 0 3px rgba(0,0,0, 0.3);
+}
+
+#controls {
+	padding: 10px;
+	font-size: 14px;
+}
+
+input[type="number"] {
+	width: 50px;
+}
+
+input, button {
+	font-size: 16px;
 }
 
 #workspace {

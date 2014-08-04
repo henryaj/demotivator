@@ -15,3 +15,28 @@ $(document).on('click', '#search-results img', function() {
 $(document).on('input', '#text', function () {
 	$("#caption").text($(this).val());
 });
+
+//4. When the controls underneath the image are changed, update the respective CSS.
+$(document).on('change', '#left', function() {
+	$("#caption").css("left", $(this).val() + 'px')
+})
+
+$(document).on('change', '#top', function() {
+	$("#caption").css("top", $(this).val() + 'px')
+})
+
+$(document).on('change', '#width', function() {
+	$("#caption").css("width", $(this).val() + 'px')
+})
+
+$(document).on('change', '#size', function() {
+	$("#caption").css("font-size", $(this).val() + 'px')
+})
+
+$(document).on('change', '#colour', function() {
+	$("#caption").css("color", $(this).val())
+})
+
+$(document).on('change', '#align', function() {
+	$("#caption").css("text-align", $(this).val() + 'px')
+})
