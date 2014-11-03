@@ -5,7 +5,7 @@
 
 ![Demotivator screenshot](demotivator.jpg)
 
-A one day project from my first day at @makersacademy.
+A one day project from my first day at Makers Academy.
 
 A simple Sinatra app. Serves up a single page that lets you find an image from Google Image search, move it into a working area, and add a (hopefully uninspiring) caption to it.
 
